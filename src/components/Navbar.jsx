@@ -46,7 +46,7 @@ const Navbar = () => {
           download="Midhun K M (Resume).pdf"
           className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100"
         >
-          <li>Download CV</li>
+          <li>Download Resume</li>
         </a>
       </ul>
       <ul className="hidden md:flex gap-5">
@@ -119,7 +119,7 @@ const Navbar = () => {
               download="Midhun K M (Resume).pdf"
               className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100"
             >
-              <li>Download CV</li>
+              <li>Download Resume</li>
             </a>
           </ul>
           <ul className="flex flex-wrap gap-5">

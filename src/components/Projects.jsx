@@ -17,6 +17,7 @@ const projectsData = [
       "Express Js",
       "Mongo DB",
     ],
+    live_link: "https://ecommerce-frontend-rosy.onrender.com",
   },
   {
     image: "/Screenshot 2025-02-15 at 8.56.30 PM.png",
@@ -32,6 +33,7 @@ const projectsData = [
       "Express Js",
       "Mongo DB",
     ],
+    live_link: "https://ecommerce-admin-a83x.onrender.com/",
   },
   {
     image: "/Screenshot 2025-02-15 at 9.06.53 PM.png",
@@ -47,6 +49,7 @@ const projectsData = [
       "Express Js",
       "Mongo DB",
     ],
+    live_link: "https://kozhencherryrealestate.com/",
   },
   {
     image: "/Screenshot 2025-02-15 at 9.14.13 PM.png",
@@ -54,6 +57,7 @@ const projectsData = [
     description:
       "This is a blog app built with ReactJS and Firebase for real-time data storage. Enable users to share, view, and interact with blog posts. Implement user authentication for secure login/logout. Utilize React components for a modular structure, and Firebase's Firestore for efficient data management. Ensure a responsive design for optimal user experience across devices.",
     technologies: ["React Js", "Bootstrap", "Firebase"],
+    live_link: "https://blog-firebase-psi.vercel.app/",
   },
 ];
 
@@ -78,6 +82,9 @@ const ProjectCard = ({ project }) => {
           src={project?.image}
           alt="Project Image"
           className="w-full cursor-pointer rounded-2xl transition-all duration-300 hover:scale-105 md:w-[300px]"
+          onClick={() =>
+            window.open(project?.live_link, "_blank", "noopener,noreferrer")
+          }
         />
         <div className="flex flex-col gap-5">
           <div className="flex flex-col gap-3">
