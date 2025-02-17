@@ -49,7 +49,7 @@ const projectsData = [
     ],
   },
   {
-    image: "public/Screenshot 2025-02-15 at 9.14.13 PM.png",
+    image: "/Screenshot 2025-02-15 at 9.14.13 PM.png",
     title: "Blog.com",
     description:
       "This is a blog app built with ReactJS and Firebase for real-time data storage. Enable users to share, view, and interact with blog posts. Implement user authentication for secure login/logout. Utilize React components for a modular structure, and Firebase's Firestore for efficient data management. Ensure a responsive design for optimal user experience across devices.",

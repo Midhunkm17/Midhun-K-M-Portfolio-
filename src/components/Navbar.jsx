@@ -51,13 +51,31 @@ const Navbar = () => {
       </ul>
       <ul className="hidden md:flex gap-5">
         <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-red-500 hover:opacity-100">
-          <BsLinkedin />
+          <a
+            href="https://www.linkedin.com/in/midhunkm17"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <BsLinkedin />
+          </a>
         </li>
         <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-red-500 hover:opacity-100">
-          <BsGithub />
+          <a
+            href="https://github.com/Midhunkm17?tab=repositories"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <BsGithub />
+          </a>
         </li>
         <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-red-500 hover:opacity-100">
-          <BsInstagram />
+          <a
+            href="https://www.instagram.com/mi._.dhun?igsh=MWl0NmQzcnl5anBwZA=="
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <BsInstagram />
+          </a>
         </li>
       </ul>
       {isOpen ? (
@@ -106,13 +124,31 @@ const Navbar = () => {
           </ul>
           <ul className="flex flex-wrap gap-5">
             <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-red-500 hover:opacity-100">
-              <BsLinkedin />
+              <a
+                href="https://www.linkedin.com/in/midhunkm17"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <BsLinkedin />
+              </a>
             </li>
             <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-red-500 hover:opacity-100">
-              <BsGithub />
+              <a
+                href="https://github.com/Midhunkm17?tab=repositories"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <BsGithub />
+              </a>
             </li>
             <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-red-500 hover:opacity-100">
-              <BsInstagram />
+              <a
+                href="https://www.instagram.com/mi._.dhun?igsh=MWl0NmQzcnl5anBwZA=="
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <BsInstagram />
+              </a>
             </li>
           </ul>
         </div>
