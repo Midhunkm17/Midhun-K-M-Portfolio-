@@ -1,7 +1,7 @@
 import { div } from "framer-motion/client";
 import React, { useState } from "react";
 import { BiMenu, BiX } from "react-icons/bi";
-import { BsGithub, BsInstagram, BsLinkedin } from "react-icons/bs";
+import { BsGithub, BsInstagram, BsLinkedin, BsWhatsapp } from "react-icons/bs";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -50,7 +50,7 @@ const Navbar = () => {
         </a>
       </ul>
       <ul className="hidden md:flex gap-5">
-        <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-red-500 hover:opacity-100">
+        <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-blue-500 hover:opacity-100">
           <a
             href="https://www.linkedin.com/in/midhunkm17"
             target="_blank"
@@ -59,7 +59,7 @@ const Navbar = () => {
             <BsLinkedin />
           </a>
         </li>
-        <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-red-500 hover:opacity-100">
+        <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-white hover:opacity-100">
           <a
             href="https://github.com/Midhunkm17?tab=repositories"
             target="_blank"
@@ -68,13 +68,22 @@ const Navbar = () => {
             <BsGithub />
           </a>
         </li>
-        <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-red-500 hover:opacity-100">
+        <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-[#E1306C] hover:opacity-100">
           <a
             href="https://www.instagram.com/mi._.dhun?igsh=MWl0NmQzcnl5anBwZA=="
             target="_blank"
             rel="noopener noreferrer"
           >
             <BsInstagram />
+          </a>
+        </li>
+        <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-green-500 hover:opacity-100">
+          <a
+            href="https://wa.me/9946957636"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <BsWhatsapp />
           </a>
         </li>
       </ul>
@@ -123,7 +132,7 @@ const Navbar = () => {
             </a>
           </ul>
           <ul className="flex flex-wrap gap-5">
-            <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-red-500 hover:opacity-100">
+            <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-blue-500 hover:opacity-100">
               <a
                 href="https://www.linkedin.com/in/midhunkm17"
                 target="_blank"
@@ -132,7 +141,7 @@ const Navbar = () => {
                 <BsLinkedin />
               </a>
             </li>
-            <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-red-500 hover:opacity-100">
+            <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-white hover:opacity-100">
               <a
                 href="https://github.com/Midhunkm17?tab=repositories"
                 target="_blank"
@@ -141,13 +150,22 @@ const Navbar = () => {
                 <BsGithub />
               </a>
             </li>
-            <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-red-500 hover:opacity-100">
+            <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-[#E1306C] hover:opacity-100">
               <a
                 href="https://www.instagram.com/mi._.dhun?igsh=MWl0NmQzcnl5anBwZA=="
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <BsInstagram />
+              </a>
+            </li>
+            <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-green-500 hover:opacity-100">
+              <a
+                href="https://wa.me/9946957636"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <BsWhatsapp />
               </a>
             </li>
           </ul>
