@@ -15,7 +15,7 @@ const Hero = () => {
         >
           <img
             src="/WhatsApp Image 2025-02-12 at 09.19.10.jpeg"
-            alt=""
+            alt="whatsapp"
             className="w-[300px] cursor-pointer rounded-full shadow-xl shadow-indigo-900 transition-all duration-300 hover:-translate-y-5 hover:scale-105 hover:shadow-2xl hover:shadow-indigo-600 md:w-[350px]"
           />
         </motion.div>
